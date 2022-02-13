@@ -1,0 +1,37 @@
+<p a><p b><p c><p d>
+  <style>
+    body{
+      margin:0;
+      background:#6592CF;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    p {
+      height:150px;
+      position:absolute;
+     border-radius:50%;
+      background:#243D83;
+    }
+    p[a] {
+      width:300px;
+      border-radius:0;
+      
+    }
+    p[b] {
+      height:250px;
+      width:250px;
+      background:#6592CF;
+      z-index:2; 
+    }
+    p[c] {
+      width:150px;
+      z-index:3;
+    }
+    p[d]{
+      height:50px;
+      width:50px;
+      background:#EEB850;
+      z-index:4;
+    }
+    
