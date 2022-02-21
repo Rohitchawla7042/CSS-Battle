@@ -1,0 +1,29 @@
+<div id="a"></div><div id="b"></div><div id="c"></div>
+  <style>
+    
+    body {
+    
+     background:#E3516E;
+     padding:42px 92px; 
+     
+    }
+    div{
+      
+      height:100px; 
+      width:100px; 
+      display:inline-block;
+      
+    }
+    #a{
+      background:#51B5A9; 
+      border-radius:100px 0 0 ; 
+    }
+     #b{
+      background:#FADE8B; 
+      border-radius:0 100px 0 0 ; 
+    }
+    #c{
+      background:#F7F3D7; 
+      border-radius: 0 0 0 100px ;
+    }
+  </style>
