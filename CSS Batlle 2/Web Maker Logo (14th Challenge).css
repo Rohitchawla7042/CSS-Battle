@@ -1,0 +1,30 @@
+<div><p a><p b></div>
+<div s><p a><p b></div>
+<style>
+  body{ background:#F2F2B6;display:flex;justify-content:center;align-items:center;
+  }
+  div{
+    position:relative;
+  }
+  p{
+    border:75px solid transparent ; 
+    border-top:130px solid #FF6D00;
+    border-bottom:0; 
+    margin:0; 
+  }
+  [b]{
+    top:0;
+    left:20px;
+    position:absolute; 
+    border-top-color:#FD4602;
+    z-index:-1;
+  }
+  [s]{
+    transform:scale(-1); 
+    margin-left:-20px;
+  }
+  [s] > [b] {
+    z-index:1;
+    
+  }
+  
