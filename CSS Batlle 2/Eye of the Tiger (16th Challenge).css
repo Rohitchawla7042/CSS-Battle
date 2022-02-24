@@ -1,0 +1,35 @@
+<div class = "main"></div>
+<div class = "circle"></div><div class ="outer-circle"></div>
+<style>
+  body{
+    background:#0B2429;display:flex;justify-content:center;align-items:center;
+  }
+  div {
+  }
+  .main{
+    width:142px; 
+    height:142px; 
+    background:#F3AC3C;
+    position:absolute;
+    top:79px;
+    border-radius:50%;
+    box-shadow: 0 0 0 19px #0B2429;
+  }
+  .circle{
+    height:50px; 
+    width:50px; 
+    background:#0B2429; 
+    position:absolute;
+    border-radius:50%;
+  }
+  .outer-circle{
+    width:200px; 
+    height:200px;
+    background:#998235; 
+    position:absloute;
+    transform:translateY(-50%, -50%);
+    border-radius: 100px 0 100px 0; 
+    transform:rotate(45deg);
+    z-index:-1; 
+  }
+</style>
