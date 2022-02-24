@@ -1,0 +1,55 @@
+<div></div>
+<p a><p b><p c><p d>
+<style>
+  div {
+    width: 207px;
+    height: 80px;
+    background: #dd6b4d;
+    position:absolute;
+    top:109px;
+    left:96px;
+    border-radius:100px 100px 100px 100px;
+    overflow:hidden;
+  }
+  p{
+    height:60px; 
+    width:60px; 
+    background:red;
+    position:absolute;
+    border-radius:50%; 
+    margin-top:65px; 
+    margin-left:165px;
+    overflow:hidden;
+  }
+  [b]{
+    height:60px; 
+    width:60px; 
+    background:green;
+    position:absolute;
+    border-radius:50%; 
+    margin-top:165px; 
+    margin-left:165px;
+    overflow:hidden;
+  }
+  [c]
+  {
+    height:65px; 
+    width:65px; 
+    background:blue;
+    position:absolute;
+    border-radius:50%; 
+    margin-top:100px; 
+    margin-left:99px;
+    overflow:hidden;
+  }  
+  [d]{
+    height:60px; 
+    width:60px; 
+    background:grey;
+    position:absolute;
+    border-radius:50%; 
+    margin-top:114px; 
+    margin-left:220px;
+    overflow:hidden;
+  }
+</style>
