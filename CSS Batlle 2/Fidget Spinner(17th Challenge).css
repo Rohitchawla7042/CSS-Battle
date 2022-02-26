@@ -1,14 +1,17 @@
 <div></div>
 <p a><p b><p c><p d>
 <style>
+  body{
+    background:#09042A;
+  }
   div {
     width: 207px;
-    height: 80px;
-    background: #dd6b4d;
+    height: 79px;
+    background: #E78481;
     position:absolute;
     top:109px;
     left:96px;
-    border-radius:100px 100px 100px 100px;
+    border-radius: 100px ;
     overflow:hidden;
   }
   p{
@@ -21,34 +24,46 @@
     margin-left:165px;
     overflow:hidden;
   }
+  [a]{
+    height:60px; 
+    width:60px; 
+    background:#F5BB9C;
+    position:absolute;
+    border-radius:50%; 
+    margin-top:60px; 
+    margin-left:165px;
+    box-shadow: 0 0 0 10px #09042A ;
+  }
   [b]{
     height:60px; 
     width:60px; 
-    background:green;
+    background:#F5BB9C;
     position:absolute;
     border-radius:50%; 
     margin-top:165px; 
     margin-left:165px;
+    box-shadow: 0 0 0 10px #09042A ;
     overflow:hidden;
   }
   [c]
   {
-    height:65px; 
-    width:65px; 
-    background:blue;
+    height:60px; 
+    width:60px; 
+    background:#09042A;
     position:absolute;
     border-radius:50%; 
-    margin-top:100px; 
-    margin-left:99px;
+    margin-top:112px; 
+    margin-left:104px;
+   box-shadow: 0 0 0 10px #E78481 ;
     overflow:hidden;
   }  
   [d]{
-    height:60px; 
-    width:60px; 
-    background:grey;
+    height:65px; 
+    width:65px; 
+    background:#09042A;
     position:absolute;
     border-radius:50%; 
-    margin-top:114px; 
+    margin-top:107px; 
     margin-left:220px;
     overflow:hidden;
   }
