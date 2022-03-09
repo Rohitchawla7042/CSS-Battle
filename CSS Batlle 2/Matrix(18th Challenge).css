@@ -1,0 +1,20 @@
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<style>
+  body{
+    background:#5C434C; 
+    margin:0; 
+    padding:10px;
+    display:grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap:20px;
+    grid-column-gap:20px; 
+  }
+  div {background:#F09462;width: 80px;height: 80px;border-radius : 100px 0px 0px  ;
+  }
+  div:nth-child(even){
+    background:#F5D6B4;
+}
+  div:nth-child(8){
+    grid-column:1/2; grid-row:2
+  }
+</style>
