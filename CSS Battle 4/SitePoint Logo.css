@@ -1,0 +1,59 @@
+<div></div>
+<span></span>
+<p a><p b>
+<style>
+  body{
+    background:#222;
+    display:flex;justify-content:center;align-items:center;
+  }
+  div {
+    left:167px;
+    right:145px;
+    top:62px;
+    position:absolute;
+    transform-origin:right;
+    transform:rotate(50deg);
+    width: 30px;
+    height: 100px;
+    background: #F2994A;
+    border-bottom-left-radius:10px;
+  }
+  span{
+    left:209px;
+    right:145px;
+    top:50.45%;
+    position:absolute;
+    transform-origin:right;
+    transform:rotate(49deg);
+    width: 30px;
+    height: 100px;
+    background: #2D9CDB;
+  }
+  p[a]{
+    position:absolute;
+    height:80px; 
+    width:30px; 
+    top:82px; 
+    left:152.2px; 
+    background:#F2994A;
+    transform-origin:right;
+    transform:rotate(-40deg); 
+    border-top-left-radius:10px;
+    border-bottom-right-radius:5px;
+    overflow:hidden;
+  }
+  p[b]{
+    position:absolute;
+    height:80px; 
+    width:30px; 
+    top:26.5%;
+    left:224px; 
+    background:#2D9CDB;
+    transform-origin:right;
+    transform:rotate(-40deg); 
+    border-top-right-radius:0px; 
+    border-top-left-radius:5px;
+    border-bottom-right-radius:7px;
+    overflow:hidden;
+  }
+</style>
