@@ -1,0 +1,35 @@
+<div></div>
+<span></span>
+<span></span>
+<style>
+  body{
+    background:#F5D6B4;display:flex;justify-content:center;align-items:center;
+  }
+  div {
+    width: 145px;
+    height: 50px;
+    background: #D86F45;
+    position:absolute; 
+    top:55%;
+    border-bottom-right-radius:40px;
+    border-top-right-radius:40px;
+    left:39%;
+  }
+  span {
+    height:100px; 
+    width:100px; 
+    background:#D86F45;
+    position:absolute; 
+    border-radius:50%; 
+    left:100px;
+    top:115px
+  }
+  span:nth-of-type(1){
+    height:102px; 
+    width:101px; 
+    background:#D86F45; 
+    position:absolute;
+    top:85px;
+    left:179px;
+  }
+</style>
