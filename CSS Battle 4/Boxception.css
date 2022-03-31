@@ -1,0 +1,38 @@
+<div></div><span></span><span></span><span></span>
+<style>
+  body{
+    background:#F3AC3C;
+  }
+  div {
+    width: 200px;
+    height: 100px;
+    background: #1A4341;
+    position:absolute; 
+    top:16.5%;
+    left:25%;
+  }
+  span{
+    height:200px; 
+    width:100px; 
+    background:#1A4341; 
+    position:absolute; 
+    top:16.5%;
+    left:50%;
+  }
+   span:nth-of-type(1){
+    height:50px; 
+     width:100px; 
+     background:#998235; 
+     position:absloute;
+     top:50%;
+     left:100px;
+  }
+  span:nth-of-type(2){
+    height:70px; 
+    width:50px; 
+    background:#998235;
+    position:absloute; 
+    top:60%;
+    left:100px;
+  }
+</style>
