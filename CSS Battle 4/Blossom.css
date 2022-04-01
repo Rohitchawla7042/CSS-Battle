@@ -1,0 +1,47 @@
+<div></div>
+<span></span>
+<style>
+  body{
+    background:#998235;
+  }
+  div {
+    width: 77px;
+    height: 100px;
+    background: #1A4341;
+    position:absolute; 
+    top:47%; 
+    left:53%; 
+    border-radius: 50px 0px 50px 0px ; 
+  }
+  span{
+    height:100px; 
+    width:77px; 
+    background:#1A4341; 
+    position:absolute; 
+    top:20%; 
+    left:28%; 
+    border-radius: 0px 50px 0px 50px;
+  }
+  span:before{
+    content:"";
+    height:75px; 
+    width:65px;
+    background:#F3AC3C;
+    position:absolute; 
+    top:-9%;
+    left:140%;    
+    border-radius:0px 50px 0px 50px ; 
+    transform:rotate(100deg);
+  }
+  span:after{
+    content:"";
+    height:75px; 
+    width:65px; 
+    background:#F3AC3C; 
+    position:absolute; 
+    top:110%;
+    left:3px;
+    border-radius: 50px 0px 50px 0px ;
+    transform:rotate(85deg);
+  }
+</style>
