@@ -1,0 +1,41 @@
+<div></div>
+<span></span>
+<style>
+  body{
+    background:#6592CF;
+  }
+  div {
+    width: 80px;
+    height: 40px;
+    position:absolute; 
+    top:40px; 
+    left:39px;
+    border-top-left-radius:110px; 
+    border-top-right-radius:110px;
+    border:20px solid #060F55;
+    border-bottom:0; 
+  }
+  span{
+    width:80px; 
+    height:40px; 
+    position:absolute; 
+    top:40px; 
+    left:240px;
+    border-top-left-radius:110px; 
+    border-top-right-radius:110px;
+    border:20px solid #060F55;
+    border-bottom:0; 
+  }
+  span:before{
+    content:"";
+    height:40px;
+    width:80px;
+    position:absolute;
+    top:140px; 
+    right:79px;
+    border-bottom-left-radius:110px; 
+    border-bottom-right-radius:110px;
+    border:21px solid #060F55; 
+    border-top:0;
+  }
+</style>
