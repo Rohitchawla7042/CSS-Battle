@@ -1,0 +1,7 @@
+<div></div><div></div><div></div><div></div>
+<style>
+  body{margin:0;}
+  div {width: 100%; height: 50px; background: #F7EC7D;}
+  div:nth-of-type(2){background:#E38F66;top:100px;width:100%;}div:nth-of-type(3){background:#AA445F;top:150px;width:100%;height:100px;}div:nth-of-type(4){background:#62306D;top:100px;width:100%;height:100px;}
+</style>
+
