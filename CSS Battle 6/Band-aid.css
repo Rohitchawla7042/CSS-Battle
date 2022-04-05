@@ -1,0 +1,11 @@
+<div></div>
+<style>
+  div{
+    height:200px; width:50px;background:#F3AC3C;position:absolute; transform :translate(-50%,-50%) rotate(-45deg);top:50%;left:50%;
+  }
+  div::before{content:"";
+    height:200px; width:50px;background:#A3A368;position:absolute; transform :translate(-50%,-50%) rotate(90deg);top:50%;left:50%;
+  }
+  div::after{
+    content:"";height:50px;width:50px;background:#FBE18C;position:absolute;top:37.5%;
+  }
