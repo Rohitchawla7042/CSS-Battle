@@ -1,0 +1,23 @@
+<div></div>
+<style>
+  body{background:#293462;}
+  div {
+    width: 100px;
+    height:150px;
+    background: #FFF1C1;border-radius:50px 50px 20px 20px;
+    position:absolute; 
+    top:50px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  div::before{
+    content:"";
+    display:block;
+height:50px;width:30px;background:linear-gradient(#A64942 10px , #FE5F55 10px);
+    border-radius:0px 0px 10px 10px;
+  position:absolute;
+  bottom:-50px;
+  left:35%; 
+  transform:translate(-50%;);
+}
+</style>
