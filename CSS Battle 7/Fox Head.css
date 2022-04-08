@@ -1,0 +1,15 @@
+<div></div>
+<style>
+  body{background:#293462;}
+  div{
+    height:150px; width:50px;background:#FE5F55;border-radius:0px 40px 0px 0px;position:absolute;top:80px;right:50%; -webkit-box-reflect :right;
+  }
+  div::before,div::after{content:"";
+    position:absolute;
+  }
+  div::before{
+    height:50px;width:50px;background:#293462;border-radius:0px 40px 0px 0px;bottom:0;
+  }
+  div:after{
+    height:30px;width:30px;background:#293462;border-radius:50%;top:40%;left:29%;
+  }
