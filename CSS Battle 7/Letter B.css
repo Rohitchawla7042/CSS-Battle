@@ -1,0 +1,14 @@
+<div><span></span></div>
+<style>body{background:#6592CF;display:flex;justify-content:center;align-items:center}
+  div {
+    width: 100px;
+    height: 100px;
+    background: #6592CF;
+    position:absolute;border-radius:50%;
+    border: 50px solid #243D83;
+    border-top-left-radius:0;
+  }
+  span{
+    height:50px;width:50px;background:#6592CF;position:absolute;transform:translateY(-50px);
+  }
+</style>
