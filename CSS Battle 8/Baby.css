@@ -1,0 +1,17 @@
+<div><span></span></div>
+<style>body{background:#293462;}
+  div {
+    width: 200px;
+    height: 200px;
+    background: #FE5F55;
+    position:absolute;top:50%; left:50%; transform:translate(-50%,-50%);
+    border-top-left-radius:110px;border-top-right-radius:110px;border-bottom-left-radius:54px;border-bottom-right-radius:54px;overflow:hidden;
+  }
+  div::before{content:"";
+    height:100px;width:100px;background:#FFF1C1;position:absolute;border-radius:50%;top:-50px; -webkit-box-reflect:right;}
+  span{
+    height:60px;width:60px;background:#FFF1C1;position:absolute;top:45%; left:20px;border-radius:50%;
+  }
+  span:nth-of-type(2){left:120px;}
+  span:nth-of-type(3){height:10px;width:40px;border-radius:10px 10px 10px 10px;top:85%;left:40%;}
+</style>
