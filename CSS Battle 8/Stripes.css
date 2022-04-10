@@ -1,0 +1,19 @@
+<div class = "line line1"></div>
+<div class = "line line2"></div><div class = "line line3"></div><div class = "line line4"></div><div class = "line line5"></div><div class = "circle"></div>
+<style>
+  body{background:#1A4341;display:flex;justify-content:center;align-items:center;}
+  .circle{
+    background:#1A4341;
+    width:400px;
+    height:343.5px;
+    border-radius:50%;
+    position:absolute;
+    left:-250px;
+    -webkit-box-reflect:right 100px;
+ }
+.line{background:#F3AC3C;position:absolute;height:20px;width:200px;} 
+.line2{top:100px;}
+.line3{top:60px;}
+.line4{top:180px;}
+.line5{top:220px;}
+ 
