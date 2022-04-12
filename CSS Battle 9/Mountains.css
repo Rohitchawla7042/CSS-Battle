@@ -1,0 +1,16 @@
+<div><span></span><span></span></div>
+<style>body{background:#293462;}
+  div {
+    width: 200px;
+    height: 200px;
+    background:#FFF1C1;
+    border-radius:50%; 
+    position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);overflow:hidden;
+  }
+  span{
+height:50px;width:90px;background:#FE5F55; position:absolute;transform :rotate(-136deg);top:76.5%;left:-1px;
+  }
+  span:nth-of-type(1){
+    height:145px;width:100px; background:#FE5F55;top:73px;left:75px;transform:rotate(45deg);
+  } 
+</style>
