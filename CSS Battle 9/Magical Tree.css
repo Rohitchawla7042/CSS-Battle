@@ -1,0 +1,34 @@
+<div></div>
+<style> body{background:#1A4341;}
+  
+  :before,:after{
+    content:""; 
+    position:absolute; 
+    left:50%; 
+    transform:translateX(-50%); 
+  }
+  body::before{
+    width:90px; 
+    height:120px; 
+    border:30px solid #998235;
+    top:-30px;
+  }
+  body:after{
+    width:270px; height:30px ; 
+    background:#998235; 
+    bottom:30px; 
+  }
+  div:before{
+    width:210px; 
+    height:180px; 
+    border:30px solid #F3AC3C ; 
+    border-top:0; 
+    top:0;
+  }
+  div:after{
+    height:400px;
+    width:30px;
+    background:#F3AC3C; 
+    top:0;
+    z-index:1;
+  }
