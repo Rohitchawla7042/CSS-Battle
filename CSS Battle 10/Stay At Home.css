@@ -1,0 +1,44 @@
+<div></div><span></span><span></span><style>body {
+    background: #6592CF;
+}
+
+div {
+    position: absolute;
+    top: 47px;
+    left: 100px;
+    border-bottom: 103px solid #243D83;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+div:before {
+    content: "";
+    height: 103px;
+    width: 149px;
+    position: absolute;
+    background: #243D83;
+    top: 100px;
+    right: -74px;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 0;
+}
+
+span {
+    height: 50px;
+    width: 50px;
+    background: #EEB850;
+    position: absolute;
+    bottom: 50px;
+    left: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+span:nth-of-type(2) {
+    top: 145px;
+    left: 150px;
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+</style>
