@@ -1,0 +1,115 @@
+<div></div><span></span><span></span><span></span><span></span><span></span><style>body {
+    background: #1A4341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 140px;
+    background: linear-gradient(#F3AC3C 55px, #998235 55px);
+    position: absolute;
+    bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div::before,
+div::after {
+    content: "";
+    position: absolute;
+    background: #F3AC3C;
+}
+
+div::before {
+    height: 20px;
+    width: 50px;
+    left: 25px;
+    top: -20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div::after {
+    height: 25px;
+    width: 22px;
+    left: 39.5px;
+    top: -40px;
+}
+
+body::before {
+    content: "";
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    background: #F3AC3C;
+    top: 60px;
+    left: 280px;
+    border-radius: 0px 0px 15px 15px
+}
+
+body::after {
+    content: "";
+    height: 150px;
+    width: 20px;
+    top: -15px;
+    left: 214px;
+    background: #F3AC3C;
+    position: absolute;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    ;
+}
+
+span {
+    height: 50px;
+    width: 50px;
+    background: #F3AC3C;
+    position: absolute;
+    border-radius: 50%;
+    left: 200px;
+    top: 140px
+}
+
+span:nth-of-type(2) {
+    height: 50px;
+    width: 50px;
+    background: #998235;
+    position: absolute;
+    border-radius: 50%;
+    left: 150px;
+    top: 140px
+}
+}
+
+span:nth-of-type(3) {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #998235;
+    left: 280px;
+    top: 110px;
+    position: absolute;
+}
+
+span:nth-of-type(4) {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #998235;
+    left: 280px;
+    top: 130px;
+}
+
+span:nth-of-type(5) {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #998235;
+    left: 280px;
+    top: 100px;
+}
+
+</style>
