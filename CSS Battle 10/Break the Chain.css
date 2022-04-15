@@ -1,0 +1,123 @@
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><style>body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6592CF
+}
+
+div {
+    height: 22px;
+    width: 22px;
+    height: 20px;
+    width: 20px;
+    background: #243D83;
+    border-radius: 50px;
+    position: absolute;
+    left: 40px;
+    top: 130px;
+}
+
+div:nth-of-type(2) {
+    left: 85px;
+}
+
+div:nth-of-type(3) {
+    left: 130px;
+}
+
+div:nth-of-type(4) {
+    left: 130px;
+    background: #EEB850;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    top: 120px;
+    left: 120px;
+}
+
+div:nth-of-type(5) {
+    left: 205px
+}
+
+div:nth-of-type(6) {
+    left: 250px
+}
+
+div:nth-of-type(7) {
+    left: 295px
+}
+
+div:nth-of-type(8) {
+    left: 340px
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+    background: #EEB850;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+body::before {
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    top: 120px;
+}
+
+body::after {
+    height: 60px;
+    width: 60px;
+    left: 65px;
+    top: 100px;
+}
+
+span {
+    background: #243D83;
+    position: absolute;
+    top: 149px;
+}
+
+span:nth-of-type(2) {
+    width: 10px;
+    height: 41px;
+    left: 45px;
+}
+
+span:nth-of-type(3) {
+    width: 10px;
+    height: 41px;
+    left: 90px;
+}
+
+span:nth-of-type(4) {
+    width: 10px;
+    height: 41px;
+    left: 135px;
+}
+
+span:nth-of-type(5) {
+    width: 10px;
+    height: 41px;
+    right: 180px;
+}
+
+span:nth-of-type(6) {
+    width: 10px;
+    height: 41px;
+    right: 135px;
+}
+
+span:nth-of-type(7) {
+    width: 10px;
+    height: 41px;
+    right: 90px;
+}
+
+span:nth-of-type(8) {
+    width: 10px;
+    height: 41px;
+    right: 45px;
+}
