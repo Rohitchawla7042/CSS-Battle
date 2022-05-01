@@ -1,0 +1,98 @@
+<div></div><p a><p b><span></span><span></span><style>body {
+    background: #191919;
+}
+
+div {
+    width: 10px;
+    height: 67px;
+    background: #5DBCF9;
+    position: absolute;
+    top: 160px;
+    left: 195px;
+    transform: translateY(-50%);
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #5DBCF9;
+    width: 10px;
+}
+
+div:before {
+    height: 80px;
+    transform: rotate(60deg);
+    right: 35px;
+    top: -14px;
+}
+
+div:after {
+    height: 30px;
+    bottom: -3px;
+    right: 66px;
+    transform: rotate(148deg);
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+    background: #5DBCF9;
+    width: 10px;
+}
+
+body:before {
+    height: 83px;
+    left: 210px;
+    transform: rotate(120deg);
+    left: 228px;
+    top: 110px;
+}
+
+body:after {
+    height: 30px;
+    transform: rotate(30deg);
+    bottom: 101px;
+    right: 128px;
+    top: 167px;
+}
+
+[a] {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    border: 10px solid #5DBCF9;
+    border-bottom: 0;
+    left: 150px;
+    top: 80px;
+}
+
+[b] {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    border: 10px solid #5DBCF9;
+    border-bottom: 0;
+    left: 175px;
+    top: 50px;
+}
+
+span {
+    height: 10px;
+    width: 200px;
+    background: #5DBCF9;
+    position: absolute;
+    top: 128px;
+    right: -90px;
+    box-shadow: -4px 0px 0px 0px #5DBCF9;
+}
+
+span:nth-of-type(2) {
+    top: 148px;
+    width: 130px;
+    right: -49px;
+    box-shadow: 0px 0px 0px 0px #5DBCF9;
+}
+
+</style>
