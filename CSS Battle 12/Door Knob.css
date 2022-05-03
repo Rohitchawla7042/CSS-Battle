@@ -1,0 +1,42 @@
+<div></div><style>body {
+    background: #191919;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #E08027;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 30px solid #824B20;
+}
+
+div::before {
+    content: "";
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border: 20px solid #FFF58F;
+    border-top: 0;
+}
+
+div:after {
+    content: "";
+    height: 18px;
+    width: 20px;
+    background: #FFF58F;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    left: -11px;
+    -webkit-box-reflect: right 82px
+}
+
+</style>
