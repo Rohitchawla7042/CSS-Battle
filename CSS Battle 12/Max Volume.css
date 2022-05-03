@@ -1,0 +1,47 @@
+<div></div><style>body {
+    background: #191919;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 75px;
+    box-shadow:
+        inset 0px 0px 0px 10px #5DBCF9,
+        inset 0px 0px 0px 25px #191919,
+        inset 0px 0px 0px 35px #5DBCF9,
+        inset 0px 0px 0px 50px #191919,
+        inset 0px 0px 0px 60px #5DBCF9;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+
+}
+
+body:before {
+    height: 50px;
+    width: 50px;
+    background: #5DBCF9;
+    border-radius: 10px 0px 0px 10px;
+    top: 125px;
+    left: 75px;
+}
+
+body:after {
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #5DBCF9;
+    left: 100px;
+}
+
+</style>
