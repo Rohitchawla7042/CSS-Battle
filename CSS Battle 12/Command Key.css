@@ -1,0 +1,60 @@
+<div><style>body {
+    background: #191919;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    background: #191919;
+    position: absolute;
+    border-radius: 100px 0px 100px 100px;
+    bottom: 57px;
+    left: 106px;
+    border: 10px solid #5DBCF9;
+}
+
+div::before,
+div::after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: #191919;
+    position: absolute;
+    top: -129px;
+    border-radius: 100px 0px 100px 100px;
+    border: 10px solid #5DBCF9;
+    transform: rotate(180deg);
+    left: 110px;
+}
+
+div:after {
+    top: -129px;
+    transform: rotate(90deg);
+    left: -10px;
+}
+
+body:before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: #191919;
+    position: absolute;
+    bottom: 56px;
+    right: 104px;
+    border-radius: 100px 0px 100px 100px;
+    border: 10px solid #5DBCF9;
+    transform: rotate(268deg);
+}
+
+body:after {
+    content: "";
+    height: 49px;
+    width: 52px;
+    background: #191919;
+    position: absolute;
+    border: 10px solid #5DBCF9;
+    top: 114.5px;
+    left: 165px;
+}
+
+</style>
