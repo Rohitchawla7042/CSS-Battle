@@ -1,0 +1,61 @@
+<div></div><span></span><span></span><span></span><span></span><style>body {
+    background: #191919;
+    margin: 0;
+}
+
+div {
+    width: 10px;
+    height: 100%;
+    ;
+    background: #5DBCF9;
+    position: absolute;
+    left: 45px;
+}
+
+div::before,
+div::after {
+    content: "";
+    position: absolute;
+    background: #5DBCF9;
+    width: 10px;
+    height: 100%;
+}
+
+div:before {
+    left: 150px;
+}
+
+div:after {
+    left: 300px;
+}
+
+span {
+    height: 40px;
+    width: 140px;
+    background: #5DBCF9;
+    position: absolute;
+    left: 55px;
+    top: 30px;
+    -webkit-box-reflect: below 110px;
+}
+
+span:nth-of-type(2) {
+    top: 80px;
+    left: 205px;
+}
+
+span:nth-of-type(3) {
+    height: 40px;
+    width: 50px;
+    left: -5px;
+    top: 80px;
+}
+
+span:nth-of-type(4) {
+    height: 40px;
+    width: 50px;
+    left: 355px;
+    top: 30px;
+}
+
+</style>
