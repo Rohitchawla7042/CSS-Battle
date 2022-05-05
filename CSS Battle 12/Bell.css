@@ -1,0 +1,38 @@
+<div></div><span></span><p><style>body {
+    background: #191919;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    background: #E08027;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px 100px 20px 20px;
+    z-index: 1;
+}
+
+span {
+    background: #F2AD43;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    top: 65px;
+    left: 175px;
+    -
+}
+
+p {
+    background: #824B20;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 49px;
+    left: 175px;
+}
+
+</style>
