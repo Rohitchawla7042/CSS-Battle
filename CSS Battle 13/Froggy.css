@@ -1,0 +1,70 @@
+<div></div><style>body {
+    background: #293462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 146px;
+    height: 106px;
+    background: linear-gradient(#FE5F55 70%, #A64942 20%);
+    border-radius: 120px 120px 100px 100px;
+    position: absolute;
+    top: 103px;
+    left: 127px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #FE5F55;
+}
+
+div:before {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    top: -19px;
+    left: 15px;
+    -webkit-box-reflect: right 20px
+}
+
+div:after {
+    height: 30px;
+    width: 30px;
+    background: #FFF1C1;
+    border-radius: 50%;
+    left: 25px;
+    top: -8px;
+    -webkit-box-reflect: right 40px;
+}
+
+body:before,
+body:after {
+    content: "";
+    position: absolute;
+    background: #293462;
+}
+
+body::before {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 105px;
+    left: 162px;
+    z-index: 1;
+    -webkit-box-reflect: right 60px;
+}
+
+body:after {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 160px;
+    left: 185px;
+    -webkit-box-reflect: right 10px;
+}
+
+</style>
