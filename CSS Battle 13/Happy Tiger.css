@@ -1,0 +1,89 @@
+<div></div><span></span><span></span><style>body {
+    background: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 105px 105px 85px 85px;
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+}
+
+body:before {
+    height: 40px;
+    width: 40px;
+    background: #1A4341;
+    top: 65px;
+    left: 115px;
+    border-radius: 50%;
+    border: 10px solid #998235;
+    z-index: -1;
+    -webkit-box-reflect: right 50px;
+}
+
+body:after {
+    height: 30px;
+    width: 10px;
+    background: #1A4341;
+    bottom: 110px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+}
+
+div:before {
+    height: 20px;
+    width: 20px;
+    background: #1A4341;
+    position: absolute;
+    top: 135px;
+    left: 150px;
+    border-radius: 50%;
+    -webkit-box-reflect: right 60px;
+}
+
+div:after {
+    height: 10px;
+    width: 20px;
+    border-radius: 0px 0px 100px 100px;
+    border: 10px solid #1A4341;
+    border-top: 0;
+    bottom: 100px;
+    left: 165px;
+    -webkit-box-reflect: right -10px;
+    z-index: 1;
+}
+
+span {
+    height: 40px;
+    width: 100px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 90px;
+    border-radius: 15px 15px 40px 40px;
+}
+
+span:nth-of-type(2) {
+    background: transparent;
+    height: 0;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #1A4341;
+    top: 76px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+</style>
