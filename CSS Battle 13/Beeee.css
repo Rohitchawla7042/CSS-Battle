@@ -1,0 +1,46 @@
+<div></div><style>body {
+    background: #998235;
+}
+
+div,
+:before,
+:after {
+    content: "";
+    position: absolute;
+}
+
+div {
+    background: linear-gradient(to right,
+            #191919 25px,
+            #EFF33C 25px 35px,
+            #191919 35px 60px,
+            #EFF33C 60px 70px,
+            #191919 70px 95px,
+            #EFF33C 95px 100%);
+    height: 75px;
+    width: 150px;
+    bottom: 75px;
+    left: 50%;
+    border-radius: 60px;
+    transform: translateX(-50%);
+}
+
+div:before {
+    height: 100%;
+    width: 50%;
+    background: #FFFFFF;
+    border-radius: 50% 50% 0;
+    transform: translateY(-100%);
+    -webkit-box-reflect: right
+}
+
+div:after {
+    height: 15px;
+    width: 15px;
+    background: #191919;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+}
+
+</style>
