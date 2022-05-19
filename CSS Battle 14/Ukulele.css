@@ -1,0 +1,87 @@
+<div></div><span></span><span></span><style>body {
+    background: #F3AC3C;
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    background: #998235;
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #998235;
+}
+
+div:before {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 70px;
+    top: 9px;
+}
+
+div:after {
+    height: 20px;
+    width: 120px;
+    background: #1A4341;
+    top: 50px;
+    left: 160px;
+    z-index: -1;
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+}
+
+body:before {
+    height: 30px;
+    width: 40px;
+    background: #998235;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    top: 134px;
+    right: 45px;
+}
+
+body:after {
+    height: 40px;
+    width: 40px;
+    background: #1A4341;
+    border-radius: 50%;
+    border: 6px solid #F3AC3C;
+    top: 123px;
+    left: 138px;
+}
+
+span {
+    height: 10px;
+    width: 40px;
+    background: #1A4341;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 144px;
+    border-radius: 40px;
+    left: 70px;
+}
+
+span:nth-of-type(2) {
+    height: 4px;
+    width: 19px;
+    transform: rotate(180deg);
+    top: 143px;
+    left: 325px;
+    -webkit-box-reflect: above 5px;
+}
+
+</style>
