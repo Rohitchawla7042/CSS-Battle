@@ -1,0 +1,86 @@
+<div></div><span></span><span></span><span></span><span></span><style>body {
+    background: #191919;
+}
+
+div {
+    width: 60px;
+    height: 89px;
+    position: absolute;
+    border: 10px solid #FE5F55;
+    border-bottom: 0;
+    top: 90px;
+    left: 95px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #FE5F55;
+}
+
+div:before {
+    height: 40px;
+    width: 51px;
+    border-radius: 50%;
+    top: 70px;
+    left: -50px;
+    -webkit-box-reflect: right 18px;
+}
+
+span {
+    position: absolute;
+    background: #A64942;
+    height: 40px;
+    width: 51px;
+    border-radius: 50%;
+    top: 170px;
+    left: 194px;
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+    background: #A64942;
+}
+
+body:before {
+    height: 99px;
+    width: 10px;
+    bottom: 110px;
+    left: 235px;
+}
+
+body:after {
+    height: 10px;
+    width: 40px;
+    top: 90px;
+    right: 125px;
+}
+
+span:nth-of-type(2) {
+    background: #FE5F55;
+    left: 265px;
+}
+
+span:nth-of-type(3) {
+    background: #FE5F55;
+    height: 99px;
+    width: 10px;
+    top: 90px;
+    left: 305px;
+    border-radius: 0;
+}
+
+span:nth-of-type(4) {
+    background: #FE5F55;
+    height: 10px;
+    width: 40px;
+    top: 90px;
+    left: 305px;
+    border-radius: 0;
+    -webkit-box-reflect: below 11px;
+}
+
+</style>
