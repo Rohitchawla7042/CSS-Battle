@@ -1,0 +1,77 @@
+<div></div><span></span><span></span><span></span><span></span><span></span><style>body {
+    background: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 180px;
+    height: 100px;
+    background: #191919;
+    border-radius: 10px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #191919;
+    height: 35px;
+    width: 15px;
+    z-index: 1;
+}
+
+div:before {
+    left: 155px;
+    top: 125px;
+    left: 130px;
+    top: 125px;
+    z-index: 1;
+    -webkit-box-reflect: right 10px;
+}
+
+div:after {
+    left: 205px;
+    top: 125px;
+    -webkit-box-reflect: right 10px;
+}
+
+span {
+    height: 70px;
+    width: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+    top: 125px;
+    left: 115px;
+}
+
+span:nth-of-type(2) {
+    left: 140px;
+    -webkit-box-reflect: right 5px;
+}
+
+span:nth-of-type(3) {
+    left: 190px;
+    -webkit-box-reflect: right 5px;
+}
+
+span:nth-of-type(4) {
+    left: 240px;
+    -webkit-box-reflect: right 5px;
+}
+
+span:nth-of-type(5) {
+    left: 155px;
+    top: 125px;
+    left: 255px;
+    top: 125px;
+    z-index: 1;
+    height: 35px;
+    width: 15px;
+    background: #191919;
+    border-radius: 0;
+}
+
+</style>
