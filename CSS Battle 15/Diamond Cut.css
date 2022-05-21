@@ -1,0 +1,52 @@
+<div></div><style>body {
+    background: #F3AC3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 30px solid #998235;
+    position: absolute;
+    transform: rotate(135deg);
+    top: 69px;
+    left: 117px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    background: #1A4341;
+}
+
+div:before {
+    height: 30px;
+    width: 30px;
+    left: 35px;
+    top: 37px;
+}
+
+div:after {
+    height: 30px;
+    width: 30px;
+    top: 100px;
+    left: 35px;
+    background: #F3AC3C;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 90px;
+    left: 229px;
+    background: #F3AC3C;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+
+</style>
