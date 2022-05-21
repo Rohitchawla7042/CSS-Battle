@@ -1,0 +1,39 @@
+<div></div><div></div><div></div><span></span><style>body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    border: 20px solid #714B67;
+    left: 37px;
+    top: 122px;
+}
+
+div:nth-child(2) {
+    left: 118px;
+    border: 20px solid #8F8F8F;
+}
+
+div:nth-child(3) {
+    left: 201px;
+    border: 20px solid #8F8F8F;
+    -webkit-box-reflect: right 2px;
+}
+
+span {
+    height: 60px;
+    width: 18px;
+    background: #8F8F8F;
+    position: absolute;
+    top: 102px;
+    border-radius: 110px;
+    left: 180px;
+}
+
+</style>
