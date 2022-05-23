@@ -1,0 +1,58 @@
+<div></div><div></div><span></span><style>body {
+    background: #F3AC3C;
+}
+
+div {
+    width: 150px;
+    height: 50px;
+    background: #1A4341;
+    border-radius: 10px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+
+div:nth-child(2) {
+    top: 185px;
+    left: 185px;
+    box-shadow:
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+    background: #1A4341;
+    border-radius: 10px;
+}
+
+body:before {
+    height: 75px;
+    width: 100px;
+    top: 90px;
+    left: 65px;
+    box-shadow: 10px -10px 0px 0px #1A4341;
+}
+
+body:after {
+    height: 75px;
+    width: 100px;
+    top: 135px;
+    left: 235px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 0px 0px #1A4341;
+}
+
+span {
+    height: 70px;
+    width: 70px;
+    background: #F3AC3C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+</style>
