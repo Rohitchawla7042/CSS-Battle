@@ -1,0 +1,39 @@
+<div></div><style>body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D25B70;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: #F7F3DA;
+    position: absolute;
+    bottom: 50px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+    transform: rotate(127deg);
+}
+
+div:before {
+    height: 60px;
+    width: 60px;
+    background: #6CB3A9;
+    top: -73px;
+    left: -36px;
+}
+
+div:after {
+    height: 80px;
+    width: 80px;
+    background: #F6DF96;
+    top: -96px;
+    left: 53px;
+}
+
+</style>
