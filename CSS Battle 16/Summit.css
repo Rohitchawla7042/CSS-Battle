@@ -1,0 +1,32 @@
+<p><style>body {
+    background: #191919;
+}
+
+p {
+    position: fixed;
+    border: 100px solid #F9E492;
+    border-radius: 50%;
+    margin: 42 92;
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -100;
+    top: 50;
+    transform: rotate(45deg);
+}
+
+p:before {
+    background: #4F77FF;
+}
+
+p:after {
+    background: #191919;
+    clip-path: ellipse(100px 100px at -3% -3%);
+}
+
+</style>
