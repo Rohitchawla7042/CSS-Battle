@@ -1,0 +1,47 @@
+<style>body {
+    background: #F7F3DA;
+    margin: 0;
+}
+
+:before,
+:after {
+    content: "";
+    position: absolute;
+}
+
+html:before,
+body:before {
+    width: 50%;
+    height: 80px;
+    background: #D25B70;
+    top: 110px;
+}
+
+html:before {
+    border-radius: 0px 10px 0px 0px;
+}
+
+body:before {
+    border-radius: 0 0 0 10px;
+    right: 0;
+}
+
+html:after,
+body:after {
+    height: 80px;
+    width: 50%;
+    background: #F7F3DA;
+}
+
+html:after {
+    border-radius: 0 20px 0 0;
+    top: 50%;
+}
+
+body:after {
+    border-radius: 0 0 0 20px;
+    bottom: 50%;
+    right: 0
+}
+
+</style>
