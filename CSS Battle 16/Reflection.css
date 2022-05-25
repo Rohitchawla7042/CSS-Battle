@@ -1,0 +1,42 @@
+<div></div><span></span><span></span><style>div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    background: linear-gradient(to bottom,
+            #F6DF96 11px,
+            #6CB3A9 5px 25.5px,
+            #F6DF96 5px 35px,
+            #6CB3A9 15px 50px,
+            #F6DF96 35px 60px,
+            #6CB3A9 60px 75px,
+            #F6DF96 60px 85px,
+            #6CB3A9 60px 100px,
+            #F6DF96 60px 90px);
+    transform: rotate(180deg);
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+}
+
+span {
+    height: 150px;
+    width: 100%;
+    background: #D25B70;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+span:nth-of-type(2) {
+    top: 150px;
+    background: #6CB3A9;
+}
+
+</style>
