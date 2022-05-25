@@ -1,0 +1,32 @@
+<div></div><div></div><span></span><style>body {
+    background: #F3AC3C;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background: #998235;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+div:nth-child(2) {
+    top: -250px;
+    z-index: -1;
+}
+
+span {
+    height: 201px;
+    width: 200px;
+    background: #1A4341;
+    position: absolute;
+    border-radius: 50%;
+    left: 75px;
+    top: 25px;
+    z-index: -1;
+    border: 25px solid #F3AC3C;
+}
+
+</style>
