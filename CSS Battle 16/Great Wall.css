@@ -1,0 +1,47 @@
+<p><c><l><a><style>* {
+    background: #4F77FF;
+    position: absolute;
+    color: #4F77FF;
+}
+
+p {
+    height: 200px;
+    width: 200px;
+    background: #191919;
+    border-radius: 50%;
+    margin: 42 92;
+    overflow: hidden;
+    position: relative;
+}
+
+c {
+    height: 40px;
+    width: 40px;
+    background: #F9E492;
+    border-radius: 50%;
+    margin: 40;
+}
+
+l {
+    border: 8px solid;
+    width: 90;
+    margin: 82 -46;
+    color: #F9E492;
+    box-shadow: 0 26px #F9E492,
+        0 52px,
+        126px -13px,
+        126px 13px,
+        126px 39px;
+}
+
+a {
+    border: 8px solid;
+    margin: -15 98;
+    color: #D6B73F;
+    transform: skewY(-32deg);
+    width: 4;
+    box-shadow: 0 26px,
+        0 52px;
+}
+
+</style>
