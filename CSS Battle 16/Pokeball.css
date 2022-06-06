@@ -1,0 +1,55 @@
+<div class="main"><div class="line"></div><div class="circle"></div></div><style>body {
+    background: #6CB3A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 200px;
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main:before {
+    content: "";
+    height: 95px;
+    width: 200px;
+    background: #D25B70;
+    position: absolute;
+    top: 0;
+}
+
+.line {
+    height: 20px;
+    width: 200px;
+    background: #6CB3A9;
+    position: absolute;
+}
+
+.line:before {
+    content: "";
+    height: 20px;
+    width: 180px;
+    background: #781728;
+    position: absolute;
+    left: 10px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background: #F6DF96;
+    border-radius: 50%;
+    z-index: 1;
+    border: 10px solid #781728;
+}
+
+</style>
