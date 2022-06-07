@@ -1,0 +1,8 @@
+<style>body {
+    background:
+        radial-gradient(1q at 50% 75px, #0000 65px, #243D83 65px 85px, #0000 1%),
+        radial-gradient(1q at 50% 225px, #0000 65px, #243D83 65px 85px, #0000 1%),
+        radial-gradient(1q at 125px, #0000 65px, #243D83 65px 85px, #0000 1%),
+        radial-gradient(1q at 275px, #0000 65px, #243D83 65px 85px, #0000 1%),
+        radial-gradient(200q, #6592CF 100px, #243D83 2%)
+}
