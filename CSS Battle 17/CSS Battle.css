@@ -1,0 +1,94 @@
+<a><a z><b><b y><c><d><e><f><c x><e w><f r><d t><style>* {
+    background: #14313E;
+    position: absolute;
+}
+
+a {
+    height: 150px;
+    width: 274px;
+    background: #FFDF00;
+    top: 67;
+    left: 55;
+    border-radius: 20px;
+}
+
+[z] {
+    height: 40px;
+    width: 294px;
+    border-radius: 5px;
+    top: 122;
+    left: 45;
+}
+
+b {
+    height: 100px;
+    width: 224px;
+    top: -30px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+[y] {
+    width: 194;
+    left: 15;
+    height: 280;
+    top: -50;
+}
+
+c {
+    height: 140px;
+    width: 30px;
+    background: #FFDF00;
+    transform: rotate(45deg);
+    left: 95;
+    top: 12;
+}
+
+d {
+    width: 21;
+    height: 21;
+    background: #FFDF00;
+    transform: rotate(45deg);
+    top: -11;
+    left: 4;
+}
+
+[t] {
+    top: 185;
+    left: 0;
+}
+
+e {
+    width: 20px;
+    height: 80px;
+    background: #FFDF00;
+    transform: rotate(45deg);
+    top: 73px;
+    left: 104px;
+}
+
+f {
+    height: 80px;
+    width: 20px;
+    background: #FFDF00;
+    transform: rotate(90deg);
+    top: 0;
+    left: 10;
+    border-radius: 8px;
+}
+
+[x] {
+    transform: rotate(90deg);
+    top: 26;
+    left: 7;
+    border: 10px solid #14313E;
+    width: 30
+}
+
+[w] {
+    transform: rotate(90deg);
+    top: 108;
+    left: 6;
+}
+
+</style>
