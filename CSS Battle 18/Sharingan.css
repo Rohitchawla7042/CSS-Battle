@@ -1,0 +1,50 @@
+<div><p><span></span><span></span><span></span></div><style>body {
+    background: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    height: 190px;
+    width: 190px;
+    background: #A22015;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    overflow: hidden
+}
+
+p {
+    height: 100px;
+    width: 100px;
+    background: #000000;
+    position: absolute;
+    border-radius: 50%;
+    top: 29px;
+    left: 45px;
+    box-shadow:
+        inset 0px 0px 0px 15px #000000,
+        inset 0px 0px 0px 25px #E96A23;
+}
+
+span {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 15px solid;
+    position: absolute;
+    top: 85;
+    left: 0;
+}
+
+span:nth-of-type(2) {
+    top: -43px;
+    left: -74px;
+}
+
+span:nth-of-type(3) {
+    top: -43px;
+    left: 74px;
+
+    </style>
