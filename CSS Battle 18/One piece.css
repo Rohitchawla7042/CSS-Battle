@@ -1,0 +1,68 @@
+<p><r><style>body {
+    background: #000000;
+}
+
+*,
+:before,
+:after {
+    content: "";
+    position: fixed;
+    color: #FFF;
+}
+
+p {
+    background: #FFFFFF;
+    width: 75;
+    height: 100;
+    border-radius: 50px 0 0 50px;
+    left: 125;
+    bottom: 74;
+    -webkit-box-reflect: right;
+}
+
+p:before {
+    background: #000;
+    width: 50;
+    height: 40;
+    border-radius: 50%;
+    top: 140;
+    left: 145;
+    transform: rotate(-30deg);
+}
+
+r {
+    height: 50;
+    -webkit-box-reflect: below;
+}
+
+r:before {
+    background: #fff;
+    width: 19;
+    height: 19;
+    top: 104;
+    left: 114;
+    transform: rotate(-45deg);
+}
+
+r:after {
+    background: #fff;
+    width: 25;
+    height: 25;
+    border-radius: 50%;
+    top: 95;
+    left: 95;
+    box-shadow: 10px -10px;
+}
+
+body:after {
+    height: 20;
+    width: 15;
+    background: #fff;
+    bottom: 60;
+    left: 173;
+    box-shadow: 0 0 0 10px inset, 20px 0, 40px 0;
+}
+
+}
+
+</style>
