@@ -1,0 +1,51 @@
+<div></div><span></span><style>body {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 241px;
+    height: 120px;
+    background: #37385A;
+    border-radius: 20px;
+}
+
+div:before,
+div:after {
+    content: "";
+    position: absolute;
+}
+
+div:before {
+    height: 80px;
+    width: 200px;
+    left: 100px;
+    top: 110px;
+    border-radius: 10px;
+    background: linear-gradient(105deg, #9897AE 38.3%, #C0C3DB 38.3% 61.7%, #9897AE 0);
+}
+
+div:after {
+    height: 10px;
+    width: 10px;
+    background: #000000;
+    top: 125px;
+    left: 115px;
+    border-radius: 50%;
+    box-shadow: 0 20px, 0 40px;
+    -webkit-box-reflect: right 150px;
+}
+
+span {
+    height: 50px;
+    width: 10px;
+    background: #000000;
+    left: 165px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 20px 0px, 40px 0, 60px 0;
+}
+
+</style>
